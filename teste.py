@@ -6,15 +6,15 @@ def funcao_principal():
     linha3 = formulario.lineEdit_3.text()
     
     if formulario.radioButton.isChecked() :
-        print("Categoria Alimentos selecionada")
+        print("Categoria Outros selecionada")
     elif formulario.radioButton_2.isChecked() :
         print("Categoria Bebidas selecionada")
     else :
-        print("Categoria Outros selecionada")
+        print("Categoria Alimentos selecionada")
 
-    print("Codigo:",linha1)
-    print("Preço:",linha2)
-    print("Nome",linha3)
+    print("Nome:",linha1)
+    print("Codigo:",linha2)
+    print("Preço",linha3)
     
 
 app=QtWidgets.QApplication([])
